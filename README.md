@@ -1,12 +1,12 @@
 # EXPERIMENT--03-INTERFACING IOT DEVELOPMENT BOARD AND CONFIGURE USART FOR TRANSFERRING STRINGS 
 
-**DATE : 15/4/25**
+**DATE:** 23/04/2025
 
-**NAME : AJITH KUMAR A**
+**NAME:** AJITH KUMAR A
 
-**ROLL NO : 212223230009**
+**ROLL NO:** 212223230009
 
-**DEPARTMENT : B.TECH & AIDS**
+**DEPARTMENT:** AIDS
 
 ## Aim:
 
@@ -115,21 +115,23 @@ int main(void)
   
   while (1)
   {
-	  printf("DANICA\n");
-	  printf("CHRISTA\n");
+    /* USER CODE END WHILE */
+     printf("saveetha engineering college G\n");
+     printf("scoft\n");
      HAL_Delay(500);
   }
 }
 PUTCHAR_PROTOTYPE{
 	HAL_UART_Transmit(&huart2, (uint8_t*)&ch,1,0xFFFF);
-	return ch;
+	return ch;
 }
 ```
+
+
 ## Output screen shots of Serial port utility   :
  
-![Screenshot 2025-03-27 115353](https://github.com/user-attachments/assets/3d40d230-cdf8-4e46-bc97-d7b1a105af50)
+ ![image](https://github.com/user-attachments/assets/7e654f51-475b-47c7-b9eb-533c883dbffc)
 
-
-
+ 
 ## Result :
 The IoT development board was successfully interfaced, and the USART was configured to transmit strings. The transmitted data was verified using a serial monitor, confirming proper communication.
